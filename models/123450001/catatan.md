@@ -1,4 +1,4 @@
-# Transformer Encoder 123450001 - rafi div aefangga
+# Transformer Encoder 123450001 - rafi diva aefangga
 
 ## Alasan optimizer
 
