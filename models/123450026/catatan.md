@@ -1,29 +1,95 @@
-# Catatan Model 123450026
 
-**Nama:** Zahra Putri Salsabilla  
-**NIM:** 123450026  
-**Komponen:** Transfer Learning / Fine-tuning
+# Laporan Eksperimen RNN
 
-## Alasan Optimizer
+**Nama:** Muhammad Aqil Ramadhan
+**NIM:** 123450066
+**Tim:** 1
+**Jalur:** RNN
 
-Optimizer belum ditentukan. Pemilihan optimizer akan dilakukan pada Sprint 1 dengan mempertimbangkan karakteristik model dan dataset yang digunakan.
+## 1. Tujuan
 
-## Regularisasi
+Mengembangkan model Recurrent Neural Network untuk
+mengklasifikasikan enam aktivitas manusia berdasarkan
+urutan pose tubuh yang diperoleh dari kamera meja.
 
-Teknik regularisasi belum ditentukan. Pemilihan teknik akan disesuaikan dengan model yang dikembangkan untuk mengurangi risiko overfitting.
+## 2. Dataset
 
-## Pencarian Hyperparameter
+Sumber dataset: [isi sumber data]
 
-Pencarian hyperparameter belum dilakukan. Eksperimen akan dilaksanakan setelah model dasar berhasil dijalankan.
+Jumlah partisipan: 8
 
-| Percobaan | Learning Rate | Batch Size | Epoch | Hasil |
-|---|---|---|---|---|
-| Belum dilakukan | - | - | - | - |
+Jumlah aktivitas: 6
 
-## Ablation (Minimal 2)
+Jumlah kondisi: 96 (rancangan eksperimen)
 
-Eksperimen ablation belum dilakukan. Minimal dua variasi eksperimen akan dilakukan pada Sprint 2 untuk mengetahui pengaruh perubahan komponen terhadap performa model.
+Jumlah sampel hasil preprocessing: [isi]
 
-## Hasil 3 Seed Konfigurasi Akhir
+Jumlah fitur: [isi]
 
-Pengujian menggunakan tiga seed belum dilakukan. Pengujian akan dilaksanakan pada konfigurasi akhir dan hasilnya dilaporkan dalam bentuk rata-rata ± simpangan baku.
+Panjang sequence: [isi]
+
+## 3. Preprocessing
+
+Metode ekstraksi pose: [isi]
+
+Representasi fitur: [isi]
+
+Penanganan pose yang tidak terdeteksi: [isi]
+
+Pemotongan kondisi: berdasarkan timestamp.
+
+Frame awal yang dibuang: 1 detik.
+
+Normalisasi: statistik data latih.
+
+Strategi split: [isi sesuai protokol]
+
+## 4. Arsitektur
+
+Jenis model: RNN
+
+Hidden size: 64
+
+Jumlah layer: 2
+
+Bidirectional: [isi]
+
+Dropout: 0.3
+
+Jumlah kelas: 6
+
+## 5. Konfigurasi Training
+
+Optimizer: Adam
+
+Learning rate: 0.001
+
+Loss: CrossEntropyLoss
+
+Batch size: [isi]
+
+Epoch: [isi]
+
+Seed: 1
+
+## 6. Hasil Eksperimen
+
+Accuracy: [hasil]
+
+Macro-F1: [hasil]
+
+Training time: [hasil]
+
+Data hash: [hasil]
+
+## 7. Analisis
+
+[Interpretasikan hasil training dan validasi.]
+
+## 8. Kesimpulan
+
+[Kesimpulan eksperimen berdasarkan hasil sebenarnya.]
+
+## 9. Kendala dan Pengembangan
+
+[Isi kendala dan rencana pengembangan.]
